@@ -30,7 +30,6 @@ function checkboxMarcado() {
 }
 
 function validacion() {
-    console.log(camposLlenos() && largoContraseña() && sonIguales() && checkboxMarcado());
     if (camposLlenos() && largoContraseña() && sonIguales() && checkboxMarcado()) {
         showAlertSuccess();
     }else{
